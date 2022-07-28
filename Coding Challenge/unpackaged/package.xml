@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountsListController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Interview</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Accounts_List_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>AccountsList</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Interview User Profile</members>
+        <name>Profile</name>
+    </types>
+    <version>55.0</version>
+</Package>
