@@ -53,7 +53,7 @@ export default class AccountsList extends LightningElement {
         }
     };
     
-    doSorting(event) {
+    handleSort(event) {
         this.sortBy = event.detail.fieldName;
         this.sortDirection = event.detail.sortDirection;
         this.sortData(this.sortBy, this.sortDirection);
